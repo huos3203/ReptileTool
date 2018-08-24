@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05EC6114212FBFEB007F1A0F /* 082246341592742.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EC6113212FBFEB007F1A0F /* 082246341592742.png */; };
 		0973CEA1AD23149888BC7E58 /* Pods_ReptileTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38530074994B870AB2DC7534 /* Pods_ReptileTool_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,7 +30,8 @@
 
 /* Begin PBXFileReference section */
 		014B79C47E5FED9261F1AEF2 /* Pods_ReptileTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReptileTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04872D27AF57661BC651C725 /* ReptileTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReptileTool.podspec; path = ../ReptileTool.podspec; sourceTree = "<group>"; };
+		04872D27AF57661BC651C725 /* ReptileTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReptileTool.podspec; path = ../ReptileTool.podspec; sourceTree = "<group>"; };
+		05EC6113212FBFEB007F1A0F /* 082246341592742.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 082246341592742.png; sourceTree = "<group>"; };
 		38530074994B870AB2DC7534 /* Pods_ReptileTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReptileTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ReptileTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReptileTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +45,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6625B0ECADB1D4EE75B0A4E2 /* Pods-ReptileTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptileTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReptileTool_Tests/Pods-ReptileTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8812CD8842C3D08D60014CBD /* Pods-ReptileTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptileTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReptileTool_Example/Pods-ReptileTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B4E48DC75799D3DF9FD6D40D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B4E48DC75799D3DF9FD6D40D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D4E01AEC2EB748366BE345FE /* Pods-ReptileTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptileTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReptileTool_Tests/Pods-ReptileTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C38CE33B00EB6BD606A00E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6C38CE33B00EB6BD606A00E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EA5AB8EF2E6ACFB3099DC3DE /* Pods-ReptileTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptileTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReptileTool_Example/Pods-ReptileTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 			children = (
 				04872D27AF57661BC651C725 /* ReptileTool.podspec */,
 				B4E48DC75799D3DF9FD6D40D /* README.md */,
+				05EC6113212FBFEB007F1A0F /* 082246341592742.png */,
 				E6C38CE33B00EB6BD606A00E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				05EC6114212FBFEB007F1A0F /* 082246341592742.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
